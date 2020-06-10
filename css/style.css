@@ -28,7 +28,8 @@ ul {
   list-style-type: none;
 }
 
-.link-btn {
+/* Button */
+.link-btn a {
   background-color: #eb028d;
   border: 1px solid #eb028d;
   padding: 10px 25px;
@@ -38,9 +39,22 @@ ul {
   color: white;
 }
 
-.link-btn:hover {
+.link-btn a:hover {
   color: #eb028d;
   background-color: white;
+}
+
+/* Novità */
+.nuovo {
+  position: relative;
+}
+
+.nuovo span {
+  color: #eb028d;
+  position: absolute;
+  top: -6px;
+  right: 42%;
+  font-size: 14px;
 }
 /* FINE STILI GENERALI */
 
@@ -76,10 +90,10 @@ ul {
   color: black;
 }
 
-/* .menu-right li.link-btn:hover {
+.menu .link-btn a:hover {
   color: #eb028d;
   background-color: white;
-} */
+}
 
 /* Dropdown */
 .with-dropdown {
@@ -90,12 +104,20 @@ ul {
   position: absolute;
   top: 75%;
   left: 0;
-  width: 100px;
+  width: 250px;
   line-height: initial;
+  border: 1px solid;
+  padding: 10px 10px 30px 10px;
+  box-shadow: 0px -1px 20px #d6d3d3;
   display: none;
+}
+
+.dropdown li {
+  margin-top: 20px;
 }
 
 .dropdown.active {
   display: block;
 }
+
 /* Fine Menu */
