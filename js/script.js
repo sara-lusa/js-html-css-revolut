@@ -5,7 +5,7 @@ $(document).ready(
 
     menuEvento.mouseenter(
       function() {
-        $('.dropdown').addClass('active');
+        $(this).children('.dropdown').addClass('active');
       }
     );
 
