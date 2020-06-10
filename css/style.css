@@ -14,9 +14,9 @@ body {
 header {
   height: 100px;
   line-height: 100px;
-  background-color: lightgrey; /* solo per debug */
   width: 100%;
   padding: 0 20px;
+  color: #c3c7cb;
 }
 
 a {
@@ -27,6 +27,21 @@ a {
 ul {
   list-style-type: none;
 }
+
+.link-btn {
+  background-color: #eb028d;
+  border: 1px solid #eb028d;
+  padding: 10px 25px;
+  line-height: initial;
+  margin-left: 15px;
+  border-radius: 33px;
+  color: white;
+}
+
+.link-btn:hover {
+  color: #eb028d;
+  background-color: white;
+}
 /* FINE STILI GENERALI */
 
 /* NAVBAR */
@@ -36,24 +51,35 @@ ul {
 }
 
 .menu img {
-  width: 50px;
+  width: 100px;
+  vertical-align: text-bottom;
 }
 
 .menu-left {
   float: left;
+  text-transform: uppercase;
 }
 
 .menu-left li {
-  padding-right: 10px;
+  padding-right: 25px;
 }
 
 .menu-right {
   float: right;
 }
 
-.menu-right li {
-  padding-left: 15px;
+.menu-right li:not(.link-btn) {
+  padding-left: 25px;
 }
+
+.menu li a:hover {
+  color: black;
+}
+
+/* .menu-right li.link-btn:hover {
+  color: #eb028d;
+  background-color: white;
+} */
 
 /* Dropdown */
 .with-dropdown {
