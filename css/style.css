@@ -7,6 +7,10 @@
 /* FINE RESET */
 
 /* STILI GENERALI */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 header {
   height: 100px;
   line-height: 100px;
@@ -54,7 +58,7 @@ ul {
   left: 0;
   width: 100px;
   line-height: initial;
-  /* display: none; */
+  display: none;
 }
 
 .dropdown.active {
