@@ -1,3 +1,63 @@
-body {
-  background-color: red;
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+/* FINE RESET */
+
+/* STILI GENERALI */
+header {
+  height: 100px;
+  line-height: 100px;
+  background-color: lightgrey; /* solo per debug */
+  width: 100%;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+/* FINE STILI GENERALI */
+
+/* NAVBAR */
+/* Menu */
+.menu > li {
+  display: inline-block;
+}
+
+.menu img {
+  width: 50px;
+}
+
+.menu-left {
+  float: left;
+}
+
+.menu-right {
+  float: right;
+}
+
+/* Dropdown */
+.with-dropdown {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  width: 100px;
+  line-height: initial;
+  /* display: none; */
+}
+
+.dropdown.active {
+  display: block;
+}
+/* Fine Menu */
