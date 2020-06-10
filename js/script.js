@@ -21,5 +21,21 @@ $(document).ready(
     //   }
     // );
 
+    var arrowEvento = $('.arrow-down i');
+
+    $('.arrow-down').mouseenter(
+      function() {
+        arrowEvento.removeClass('fa-angle-down');
+        arrowEvento.addClass('fa-angle-up');
+      }
+    );
+
+    $('.arrow-down').mouseleave(
+      function() {
+        arrowEvento.removeClass('fa-angle-up');
+        arrowEvento.addClass('fa-angle-down');
+      }
+    );
+
   }
 );

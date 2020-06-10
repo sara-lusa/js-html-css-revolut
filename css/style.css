@@ -43,8 +43,16 @@ ul {
   float: left;
 }
 
+.menu-left li {
+  padding-right: 10px;
+}
+
 .menu-right {
   float: right;
+}
+
+.menu-right li {
+  padding-left: 15px;
 }
 
 /* Dropdown */
