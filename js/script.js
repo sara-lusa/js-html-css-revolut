@@ -1,21 +1,21 @@
 $(document).ready(
   function() {
 
-    var eventoMenu = $('.menu .with-dropdown');
+    var menuEvento = $('.menu .with-dropdown');
 
-    eventoMenu.mouseenter(
+    menuEvento.mouseenter(
       function() {
         $('.dropdown').addClass('active');
       }
     );
 
-    eventoMenu.mouseleave(
+    menuEvento.mouseleave(
       function() {
         $('.dropdown').removeClass('active');
       }
     );
 
-    // eventoMenu.click(
+    // menuEvento.click(
     //   function() {
     //     $('.dropdown').removeClass('active');
     //   }
