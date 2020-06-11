@@ -45,15 +45,10 @@ ul {
 }
 
 /* Novità */
-.nuovo {
-  position: relative;
-}
-
 .nuovo span {
   color: #eb028d;
-  position: absolute;
-  top: -6px;
-  right: 42%;
+  position: relative;
+  top: -9px;
   font-size: 14px;
 }
 /* FINE STILI GENERALI */

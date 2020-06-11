@@ -3,11 +3,11 @@ $(document).ready(
 
     var menuEvento = $('.menu .with-dropdown');
 
-    menuEvento.mouseenter(
-      function() {
-        $(this).children('.dropdown').addClass('active');
-      }
-    );
+    // menuEvento.mouseenter(
+    //   function() {
+    //     $(this).children('.dropdown').addClass('active');
+    //   }
+    // );
 
     menuEvento.mouseleave(
       function() {
@@ -15,11 +15,11 @@ $(document).ready(
       }
     );
 
-    // menuEvento.click(
-    //   function() {
-    //     $('.dropdown').removeClass('active');
-    //   }
-    // );
+    menuEvento.click(
+      function() {
+        $(this).children('.dropdown').toggleClass('active');
+      }
+    );
 
     var arrowEvento = $('.arrow-down i');
 
