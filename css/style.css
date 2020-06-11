@@ -19,6 +19,12 @@ header {
   color: #c3c7cb;
 }
 
+main {
+  width: 100%;
+  height: calc(100vh - 100px);
+  position: relative;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -116,3 +122,49 @@ ul {
 }
 
 /* Fine Menu */
+
+/* MAIN */
+/* form */
+.form {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: #c3c7cb;
+  display: none;
+}
+
+.form > div {
+  margin: 20px 0;
+}
+
+.form label {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.form input,
+.form select {
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form button {
+  background-color: #eb028d;
+  border: 1px solid #eb028d;
+  padding: 10px 25px;
+  line-height: initial;
+  margin-left: 15px;
+  border-radius: 33px;
+  color: white;
+}
+
+/* .form.active {
+  display: block;
+} */
+
+/* FINE MAIN */
