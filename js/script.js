@@ -39,11 +39,19 @@ $(document).ready(
 
     $('.menu .link-btn a').click(
       function() {
-        $('.form').toggle();
+        $('.form').addClass('active');
       }
     );
 
-    $('.form button').click(
+    $('.form button.btn-fine').click(
+      function() {
+        $('.form').removeClass('active');
+        $('.form').children('.lista-registrati ul').remove('li');
+
+      }
+    );
+
+    $('.form button.registra').click(
       function() {
         var nome = $('.nome input').val();
         var eta = $('.eta select').val();

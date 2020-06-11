@@ -130,9 +130,18 @@ ul {
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+  background-color: #139bd5;
   text-align: center;
-  color: #c3c7cb;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
   display: none;
+  width: 480px;
+  height: 530px;
+}
+
+.form h2 {
+  margin-bottom: 20px;
 }
 
 .form > div {
@@ -151,6 +160,7 @@ ul {
   height: 20px;
   border-radius: 5px;
   padding: 10px;
+  border: 1px solid black;
 }
 
 .form button {
@@ -163,8 +173,8 @@ ul {
   color: white;
 }
 
-/* .form.active {
+.form.active {
   display: block;
-} */
+}
 
 /* FINE MAIN */
