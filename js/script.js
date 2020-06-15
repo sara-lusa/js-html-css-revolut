@@ -46,7 +46,8 @@ $(document).ready(
     $('.form button.btn-fine').click(
       function() {
         $('.form').removeClass('active');
-        $('.form').children('.lista-registrati ul').remove('li');
+        $('.form').find('.lista-registrati ul').remove();
+        $('.form > div input').val('');
 
       }
     );
@@ -63,6 +64,7 @@ $(document).ready(
         messaggioEta = 'Essendo minorenne, hai diritto ad un 20% su ogni prodotto, fino al 30 di questo mese.'
         }
         $('.lista-registrati ul').append(messaggioStandard + messaggioEta + '. <br>Benvenuto a bordo!')
+
       }
     );
 
